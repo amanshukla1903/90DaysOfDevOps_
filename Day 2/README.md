@@ -71,3 +71,6 @@ systemctl \- is basically for run and checking if any services are running
 * **Zombie** → The process has finished its work, but its entry still exists until the parent process removes it.  
 * **Dead/Terminated** → The process has completely ended and is removed from memory.
 
+
+Keep Learnig.
+Aman
