@@ -1,76 +1,85 @@
 # Day 02 – Linux Architecture, Processes, and systemd
 
 ## Task
+Today’s goal is to **understand how Linux works under the hood**.
 
-Today’s goal is to understand how Linux works under the hood.  
 You will create a short note that explains:
-
-* The core components of Linux (kernel, user space, init/systemd)  
-* How processes are created and managed  
-* What systemd does and why it matters
+- The core components of Linux (kernel, user space, init/systemd)
+- How processes are created and managed
+- What systemd does and why it matters
 
 This is the foundation for all troubleshooting you will do as a DevOps engineer.
 
+---
+
 ## Expected Output
+By the end of today, you should have:
 
-* The core components of Linux (kernel, user space, init/systemd)
+- A markdown file named:  
+  `linux-architecture-notes.md`
 
-Linux mainly has three important parts: kernel, user space, and systemd/init.
+or
 
-The kernel is the heart of Linux. It connects the software with the hardware and manages things like memory, CPU, devices, files, and processes.
+- A hand written set of notes (Recommended)
 
-User Space is the area where users work. All applications, commands, and tools like the terminal, browser, and shell run in user space.
+Your notes should be clear enough that someone new to Linux can follow them.
 
-Init or systemd is the first process that starts after the Linux system boots. It manages system services, starts background processes, and controls startup and shutdown operations. Nowadays, most Linux systems use systemd because it is faster and more efficient.
+---
 
-* How processes are created and managed.  
-    
-  In Linux, a process is created whenever a program or command is executed. The system creates a new process using the kernel, gives it a unique Process ID (PID), and allocates memory and CPU resources for it.   
-  Linux manages processes by scheduling CPU time, controlling memory usage, and tracking process states like running, sleeping, or stopped. Users and administrators can monitor and manage processes using commands like `"ps," "top," "htop," and "kill."`  
-  
+## Guidelines
+Follow these rules while creating your notes:
+
+- Explain **process states** (running, sleeping, zombie, etc.)
+- List **5 commands** you would use daily
+- Keep it **short and practical** (under 1 page)
+- Use bullet points and short headings
+
+---
+
+## Resources
+You may refer to:
+
+- Linux `man` pages (`ps`, `top`, `systemctl`)
+- Official systemd docs
+- Your class notes
+
+Avoid copying/pasting AI Generated content.
+Focus on understanding.
+
+---
+
+## Why This Matters for DevOps
+Linux is the base OS for almost every production system.
+
+If you know how processes and systemd work, you can:
+- Debug crashed services faster
+- Fix CPU/memory issues
+- Understand logs and service restarts confidently
+
+This knowledge saves hours during incidents.
+
+---
+
+## Submission
+1. Fork this `90DaysOfDevOps` repository  
+2. Navigate to the `2026/day-02/` folder  
+3. Add your `linux-architecture-notes.md` file  
+4. Commit and push your changes to your fork  
+
+---
+
+## Learn in Public
+Share your Day 02 progress on LinkedIn:
+
+- Post 2–3 lines on what you learned about Linux internals
+- Share one systemd command you found useful
+- Optional: screenshot of your notes
+
+Use hashtags:
+#90DaysOfDevOps
+#DevOpsKaJosh
+#TrainWithShubham
 
 
-* What systemd does and why it matters 
-
-	  
-`systemd` is the service manager in Linux that starts and manages system services and background processes during boot. It also handles restarting failed services and controls system startup and shutdown.
-
-It is important because it makes Linux systems faster, more organized, and easier to manage.
-
-⇒ Everything in a Linux file or directory.
-
-⇒ Everything in a Linux is a process.
-
-**Commands that I practice today** 
-
-	
-
-	\`cd\`—for changing directory
-
-	pwd \- present working directory
-
-	ls—list directory and files
-
-	/ \- root directory
-
-	cat \- view what is in inside in a file 
-
-	vi—create a file and open immediately 
-
-echo \- print the file 
-
-top \- for see how much resources taking.
-
-systemctl \- is basically for run and checking if any services are running
-
-**A process in Linux goes through different states depending on what it is doing.**
-
-* **Running** → The process is currently using the CPU or ready to run.  
-* **Sleeping** → The process is waiting for something, like user input or a file response.  
-* **Stopped** → The process has been paused or stopped manually.  
-* **Zombie** → The process has finished its work, but its entry still exists until the parent process removes it.  
-* **Dead/Terminated** → The process has completely ended and is removed from memory.
-
-
-Keep Learnig.
-Aman
+Happy Learning  
+**TrainWithShubham**
