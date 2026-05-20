@@ -120,5 +120,3 @@
 - `free` and `df -h` are your first stop when a server feels slow
 
 ---
-
-*Built during live practice on TrainWithShubham Playground – Ubuntu 22.04*
