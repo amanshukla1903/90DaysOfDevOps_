@@ -89,11 +89,3 @@ Share your Day 01 progress on LinkedIn:
 - Share one goal from your learning plan
 - Optional: screenshot of your markdown file or a professional picture
 
-Use hashtags:
-#90DaysOfDevOps
-#DevOpsKaJosh
-#TrainWithShubham
-
-
-Happy Learning  
-**TrainWithShubham**

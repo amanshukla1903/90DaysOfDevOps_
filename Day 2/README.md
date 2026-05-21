@@ -75,11 +75,3 @@ Share your Day 02 progress on LinkedIn:
 - Share one systemd command you found useful
 - Optional: screenshot of your notes
 
-Use hashtags:
-#90DaysOfDevOps
-#DevOpsKaJosh
-#TrainWithShubham
-
-
-Happy Learning  
-**TrainWithShubham**
