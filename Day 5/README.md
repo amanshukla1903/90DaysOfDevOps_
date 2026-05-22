@@ -93,10 +93,4 @@ Share your Day 05 progress on LinkedIn:
 - Share the service you inspected and one “next step” from your runbook
 - Optional: screenshot of your runbook
 
-Use hashtags:  
-#90DaysOfDevOps  
-#DevOpsKaJosh  
-#TrainWithShubham
 
-Happy Learning  
-**TrainWithShubham**

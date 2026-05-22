@@ -84,10 +84,3 @@ Share your Day 06 progress on LinkedIn:
 - Share one command you will use often
 - Optional: screenshot of your notes
 
-Use hashtags:  
-#90DaysOfDevOps  
-#DevOpsKaJosh  
-#TrainWithShubham
-
-Happy Learning  
-**TrainWithShubham**
