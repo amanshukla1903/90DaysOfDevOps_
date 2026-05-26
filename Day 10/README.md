@@ -101,17 +101,3 @@ Create `day-10-file-permissions.md`:
 3. Commit and push
 
 ---
-
-## Learn in Public
-
-Share on LinkedIn about mastering file permissions.
-
-Use hashtags:
-```
-#90DaysOfDevOps
-#DevOpsKaJosh
-#TrainWithShubham
-```
-
-Happy Learning
-**TrainWithShubham**
